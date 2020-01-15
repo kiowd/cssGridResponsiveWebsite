@@ -1,0 +1,58 @@
+/* CSS Variables */
+:root {
+    --primary: #f4f4f4;
+    --dark: #3333;
+    --light: #ffff;
+    --shadow: 0 1px 5px rgba(104,104,104,0.8);
+}
+
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    background-color: var(--primary);
+}
+/* Global */
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #5F9EA0;
+    color: var(--light);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #F4A460 3px solid;
+}
+
+header a {
+    color: var(--light);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 13px;
+}
